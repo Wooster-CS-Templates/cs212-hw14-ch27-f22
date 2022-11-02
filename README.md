@@ -8,7 +8,7 @@ Change the code to use a lock to ensure the right counter value is always calcul
 
 ### t1.c 
 
-Replace the `void *mythread(void *arg)` function with two functions:
+Replace the `void *mythread(void *arg)` function with two functions that have the same body as the initial `mythread` function:
 * `void *my_thread_first(void *arg)`
 * `void *my_thread_second(void *arg)`
 
